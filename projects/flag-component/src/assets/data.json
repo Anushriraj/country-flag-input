@@ -1,0 +1,68 @@
+[
+    {
+      "countryName": "India",
+      "countryCode": "+91",
+      "flag": "https://cdn.countryflags.com/thumbs/india/flag-400.png"
+    },
+    {
+      "countryName": "Brunei",
+      "countryCode": "+673",
+      "flag": "https://cdn.countryflags.com/thumbs/brunei/flag-400.png"
+    },
+    {
+      "countryName": "Laos",
+      "countryCode": "+856",
+      "flag": "https://cdn.countryflags.com/thumbs/laos/flag-400.png"
+    },
+    {
+      "countryName": "Cambodia",
+      "countryCode": "+855",
+      "flag": "https://cdn.countryflags.com/thumbs/cambodia/flag-400.png"
+    },
+    {
+      "countryName": "Hong Kong",
+      "countryCode": "+852",
+      "flag": "https://cdn.countryflags.com/thumbs/hongkong/flag-400.png"
+    },
+    {
+      "countryName": "Indonesia",
+      "countryCode": "+62",
+      "flag": "https://cdn.countryflags.com/thumbs/indonesia/flag-400.png"
+    },
+    {
+      "countryName": "South Korea",
+      "countryCode": "+82",
+      "flag": "https://cdn.countryflags.com/thumbs/southkorea/flag-400.png"
+    },
+    {
+      "countryName": "Malaysia",
+      "countryCode": "+60",
+      "flag": "https://cdn.countryflags.com/thumbs/malaysia/flag-400.png"
+    },
+    {
+      "countryName": "Philippines",
+      "countryCode": "+63",
+      "flag": "https://cdn.countryflags.com/thumbs/philippines/flag-400.png"
+    },
+    {
+      "countryName": "Singapore",
+      "countryCode": "+65",
+      "flag": "https://cdn.countryflags.com/thumbs/singapore/flag-400.png"
+    },
+    {
+      "countryName": "Thailand",
+      "countryCode": "+66",
+      "flag": "https://cdn.countryflags.com/thumbs/thailand/flag-400.png"
+    },
+    {
+      "countryName": "Vietnam",
+      "countryCode": "+84",
+      "flag": "https://cdn.countryflags.com/thumbs/vietnam/flag-400.png"
+    },
+    {
+      "countryName": "Taiwan",
+      "countryCode": "+886",
+      "flag": "https://cdn.countryflags.com/thumbs/taiwan/flag-400.png"
+    }
+  ]
+  
