@@ -13,4 +13,4 @@ import { SfwCountryFlagInputComponent } from './sfw-country-flag-input.component
     SfwCountryFlagInputComponent
   ]
 })
-export class FlagComponentModule { }
+export class SfwCountryFlagInputModule { }
