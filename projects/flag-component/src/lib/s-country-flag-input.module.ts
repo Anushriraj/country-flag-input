@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SfwCountryFlagInputComponent } from './sfw-country-flag-input.component';
+import { SCountryFlagInputComponent } from './s-country-flag-input.component';
 
 
 
 @NgModule({
   declarations: [
-    SfwCountryFlagInputComponent
+    SCountryFlagInputComponent
   ],
   imports: [
     BrowserModule
   ],
   exports: [
-    SfwCountryFlagInputComponent
+    SCountryFlagInputComponent
   ]
 })
-export class SfwCountryFlagInputModule { }
+export class SCountryFlagInputModule { }

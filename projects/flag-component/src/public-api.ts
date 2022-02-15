@@ -2,5 +2,5 @@
  * Public API Surface of flag-component
  */
 
-export * from './lib/sfw-country-flag-input.component';
-export * from './lib/sfw-country-flag-input.module';
+export * from './lib/s-country-flag-input.component';
+export * from './lib/s-country-flag-input.module';

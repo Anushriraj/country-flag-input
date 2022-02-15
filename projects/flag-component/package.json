@@ -1,5 +1,5 @@
 {
-  "name": "sfw-flag-input",
+  "name": "s-flag-input",
   "version": "1.3.0",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
