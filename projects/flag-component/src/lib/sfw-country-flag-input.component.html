@@ -16,7 +16,7 @@
         style="padding-right: 10px; height: 10px;"
       />
     </div>
-    <div id="myDropdown" class="dropdown-content" *ngIf="showFlags">
+    <div id="myDropdown" class="dropdown-content" [hidden]="!showFlags">
       <div
         *ngFor="let codes of countriesData"
         (click)="getCountryDetails(codes)"
