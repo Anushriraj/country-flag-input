@@ -1,3 +1,4 @@
+
 ## Getting Started
 npm s-flag-input provides the country flag dropdown along with country code and country name.
 
@@ -18,6 +19,4 @@ import { SCountryFlagInputModule } from 'ngx-bootstrap/tooltip';
 Add component to your page:
 
 <s-country-flag-input></s-country-flag-input> 
-
-
 
