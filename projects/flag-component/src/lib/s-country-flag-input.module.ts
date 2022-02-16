@@ -1,5 +1,5 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { SCountryFlagInputComponent } from './s-country-flag-input.component';
 
 
@@ -9,7 +9,7 @@ import { SCountryFlagInputComponent } from './s-country-flag-input.component';
     SCountryFlagInputComponent
   ],
   imports: [
-    BrowserModule
+    CommonModule
   ],
   exports: [
     SCountryFlagInputComponent
