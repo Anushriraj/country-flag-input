@@ -2,11 +2,11 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import * as countries from '../assets/data.json';
 
 @Component({
-  selector: 'sfw-country-flag-input',
-  templateUrl: './sfw-country-flag-input.component.html',
-  styleUrls: ['./sfw-country-flag-input.component.css'],
+  selector: 's-country-flag-input',
+  templateUrl: './s-country-flag-input.component.html',
+  styleUrls: ['./s-country-flag-input.component.css'],
 })
-export class SfwCountryFlagInputComponent implements OnInit {
+export class SCountryFlagInputComponent implements OnInit {
   @Input() name!: string;
   showFlags = false;
   currentURL = window.location.origin;
