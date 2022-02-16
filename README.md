@@ -12,7 +12,7 @@ npm i s-flag-input
 Add wanted package to NgModule imports:
 
 ```bash
-import { SCountryFlagInputModule } from 'ngx-bootstrap/tooltip';
+import { SCountryFlagInputModule } from 's-flag-input';
 ```
 
 ```bash
