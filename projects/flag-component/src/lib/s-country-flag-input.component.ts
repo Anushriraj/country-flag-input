@@ -7,14 +7,8 @@ import * as countries from '../assets/data.json';
   styleUrls: ['./s-country-flag-input.component.css'],
 })
 export class SCountryFlagInputComponent implements OnInit {
-  @Input() name!: string;
   showFlags = false;
-  currentURL = window.location.origin;
   countriesData: any = (countries as any).default;
-  countriesDatas: any;
-  ipaddress: any;
-  country: any;
-  currentCountryName: any;
   countryFullDetail: any = {
     countryName: 'India',
     countryCode: '+91',
