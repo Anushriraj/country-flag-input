@@ -35,20 +35,12 @@ Add component to your page:
 
 | Name          | Type          | Default | Description  |
 | ------------- | ------------- | ------------- | ------------- |
-| showFlags     | Boolean       | false | If the showFlags is true, the dropdown flag data is displayed |
-| countriesData | any           | null | It contains the data of JSON file  |
-| countryFullDetail  | Object  | Indian flag and country code is set as default  | The data of selected flag is set as a value for this property.  |
-| flagdata  | any  | null  | It is the event emitter, which the emits the output value of selected flag data |
+| defaultCountry     | Object       | India | Flag should on loading the component |
+
 
 ## Methods
 
 | Name          | Parameters | Description  |
 | ------------- | -----------| ------------ |
-| onClickFlag   |     -      | On clicking the flag dropdown, the onClickFlag function is triggered and showflags is set to true. |
-| getCountryDetails |   event         | When the value is selected from the dropdown, using the event the selected flag data is set as the value of countryFullDetail|
+| getSelectedCountryDetail |   event         | When the value is selected from the dropdown, using the event the selected flag data is set as the value of countryFullDetail|
 
-## Events
-
-| Name          | Parameters | Description  |
-| ------------- | -----------| ------------ |
-| onClick  |     -      | Callback to trigger the function when the dropdown is clicked |
