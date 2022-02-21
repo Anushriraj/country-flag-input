@@ -9,7 +9,7 @@ import * as countries from '../assets/data.json';
 export class SCountryFlagInputComponent implements OnInit {
   showFlags = false;
   countriesData: any = (countries as any).default;
-  countryFullDetail: any = {
+  defaultCountry: any = {
     countryName: 'India',
     countryCode: '+91',
     flag: 'https://cdn.countryflags.com/thumbs/india/flag-400.png',
@@ -23,6 +23,6 @@ export class SCountryFlagInputComponent implements OnInit {
   getCountryDetails(data: any) {
     this.flagdata.emit({ value: data });
     this.showFlags = false;
-    this.countryFullDetail = data;
+    this.defaultCountry = data;
   }
 }

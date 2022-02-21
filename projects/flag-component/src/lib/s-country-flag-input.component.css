@@ -54,7 +54,7 @@
 }
 .flag-box {
   display: block;
-  width: 100%;
+  width: 35px;
   height: 100%;
   font-size: 1rem;
   justify-content: center;
@@ -124,8 +124,10 @@
   border-bottom-left-radius: 0px;
 }
 .flagCala {
-  width: 30px !important;
+  width: 35px !important;
   padding-left: 2px !important;
+  height: 15px !important;
+  padding-top: 4px !important;
 }
 @media (max-width: 1187px) {
   .flagCala {
