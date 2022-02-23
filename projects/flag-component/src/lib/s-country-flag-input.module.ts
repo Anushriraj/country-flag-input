@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SCountryFlagInputComponent } from './s-country-flag-input.component';
 
 
@@ -9,7 +10,9 @@ import { SCountryFlagInputComponent } from './s-country-flag-input.component';
     SCountryFlagInputComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     SCountryFlagInputComponent
