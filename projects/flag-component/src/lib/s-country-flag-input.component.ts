@@ -46,13 +46,6 @@ export class SCountryFlagInputComponent implements OnInit {
   }
 
   ngDoCheck() {
-    if (this.flagComponentForm.controls['phonenumber'].value.length >= 5) {
       this.phoneNumberInput.emit(this.flagComponentForm.controls['phonenumber']);
-      this.isNotValid = false;
-      this.isValid = true;
-    } else {
-      this.isNotValid = true;
-      this.isValid = false;
-    }
   }
 }
