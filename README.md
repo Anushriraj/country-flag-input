@@ -36,6 +36,9 @@ Add component to your page:
 | Name          | Type          | Default | Description  |
 | ------------- | ------------- | ------------- | ------------- |
 | defaultCountry     | Object       | India | Flag should on loading the component |
+| showFlags | Boolean | false | If it is set to true, the dropdown values are shown |
+| countriesData | array | - | It contains the list of countries List |
+| flagComponentForm | FormGroup | - | It contains the formgroup and validation of phone number input |
 
 
 ## Methods

@@ -18,8 +18,6 @@ export class SCountryFlagInputComponent implements OnInit {
   @Output() flagdata = new EventEmitter();
   flagComponentForm!: FormGroup;
   @Output() private phoneNumberInput = new EventEmitter<any>();
-  isNotValid = false;
-  isValid = false;
 
   constructor(private _formBuilder: FormBuilder) {}
 
