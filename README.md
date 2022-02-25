@@ -42,5 +42,6 @@ Add component to your page:
 
 | Name          | Parameters | Description  |
 | ------------- | -----------| ------------ |
-| getSelectedCountryDetail |   event         | When the value is selected from the dropdown, using the event the selected flag data is set as the value of countryFullDetail|
+| flagdata |   event         | It returns the selected value of flag data |
+| phoneNumberInput |   event         | It returns the given phone number input |
 
