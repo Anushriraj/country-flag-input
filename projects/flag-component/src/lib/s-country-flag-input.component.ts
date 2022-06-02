@@ -14,6 +14,7 @@ export class SCountryFlagInputComponent implements OnInit {
     countryName: 'India',
     countryCode: '+91',
     flag: 'https://cdn.countryflags.com/thumbs/india/flag-400.png',
+    mobile_format: "+91 9999-999999"
   };
   @Output() flagdata = new EventEmitter();
   flagComponentForm!: FormGroup;
