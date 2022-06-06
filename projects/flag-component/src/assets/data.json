@@ -3,79 +3,79 @@
       "countryName": "India",
       "countryCode": "+91",
       "flag": "https://cdn.countryflags.com/thumbs/india/flag-400.png",
-      "mobile_format": "+91 9999-999999"
+      "mobile_format": "9999-999999"
     },
     {
       "countryName": "Brunei",
       "countryCode": "+673",
       "flag": "https://cdn.countryflags.com/thumbs/brunei/flag-400.png",
-      "mobile_format": "+673 999-9999-999"
+      "mobile_format": "999-9999-999"
     },
     {
       "countryName": "Laos",
       "countryCode": "+856",
       "flag": "https://cdn.countryflags.com/thumbs/laos/flag-400.png",
-      "mobile_format": "+856-99-999999"
+      "mobile_format": "99-999999"
     },
     {
       "countryName": "Cambodia",
       "countryCode": "+855",
       "flag": "https://cdn.countryflags.com/thumbs/cambodia/flag-400.png",
-      "mobile_format": "+855 99-999-999"
+      "mobile_format": "99-999-999"
     },
     {
       "countryName": "Hong Kong",
       "countryCode": "+852",
       "flag": "https://cdn.countryflags.com/thumbs/hongkong/flag-400.png",
-      "mobile_format": "+852 9999-9999"
+      "mobile_format": "9999-9999"
     },
     {
       "countryName": "Indonesia",
       "countryCode": "+62",
       "flag": "https://cdn.countryflags.com/thumbs/indonesia/flag-400.png",
-      "mobile_format": "+62 9999-9999"
+      "mobile_format": "9999-9999"
     },
     {
       "countryName": "South Korea",
       "countryCode": "+82",
       "flag": "https://cdn.countryflags.com/thumbs/south-korea/flag-400.png",
-      "mobile_format": "+82 99-999-9999"
+      "mobile_format": "99-999-9999"
     },
     {
       "countryName": "Malaysia",
       "countryCode": "+60",
       "flag": "https://cdn.countryflags.com/thumbs/malaysia/flag-400.png",
-      "mobile_format": "+60 99-999-9999"
+      "mobile_format": "99-999-9999"
     },
     {
       "countryName": "Philippines",
       "countryCode": "+63",
       "flag": "https://cdn.countryflags.com/thumbs/philippines/flag-400.png",
-      "mobile_format": "+63 9999-999-9999"
+      "mobile_format": "9999-999-9999"
     },
     {
       "countryName": "Singapore",
       "countryCode": "+65",
       "flag": "https://cdn.countryflags.com/thumbs/singapore/flag-400.png",
-      "mobile_format": "+65 9999-9999"
+      "mobile_format": "9999-9999"
     },
     {
       "countryName": "Thailand",
       "countryCode": "+66",
       "flag": "https://cdn.countryflags.com/thumbs/thailand/flag-400.png",
-      "mobile_format": "+66-9-9999999"
+      "mobile_format": "9-9999999"
     },
     {
       "countryName": "Vietnam",
       "countryCode": "+84",
       "flag": "https://cdn.countryflags.com/thumbs/vietnam/flag-400.png",
-      "mobile_format": "+84 9999-999-9999"
+      "mobile_format": "9999-999-9999"
     },
     {
       "countryName": "Taiwan",
       "countryCode": "+886",
       "flag": "https://cdn.countryflags.com/thumbs/taiwan/flag-400.png",
-      "mobile_format": "+886 999999999"
+      "mobile_format": "999999999"
     }
   ]
   
