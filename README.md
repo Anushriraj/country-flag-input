@@ -1,6 +1,6 @@
 
 ## Getting Started
-npm s-flag-input provides the country flag dropdown along with country code and country name.
+npm s-flag-input provides the country flag dropdown along with country code and country name. Based on the default region which is given as the input in the application, the country list is displayed in the dropdown.
 
 ## Installation
 Install npm s-flag-input from npm:
@@ -37,8 +37,9 @@ Add component to your page:
 | ------------- | ------------- | ------------- | ------------- |
 | defaultCountry     | Object       | India | Flag should on loading the component |
 | showFlags | Boolean | false | If it is set to true, the dropdown values are shown |
-| countriesData | array | - | It contains the list of countries List |
+| countriesDataList | array | - | It contains the list of countries List |
 | flagComponentForm | FormGroup | - | It contains the formgroup and validation of phone number input |
+| country | array | - | It contains the list of filtered countries List based on the default region input |
 
 
 ## Methods
@@ -47,4 +48,5 @@ Add component to your page:
 | ------------- | -----------| ------------ |
 | flagdata |   event         | It returns the selected value of flag data |
 | phoneNumberInput |   event         | It returns the given phone number input |
+| defaultRegion | string | It is input of default region which is given in the application. |
 
