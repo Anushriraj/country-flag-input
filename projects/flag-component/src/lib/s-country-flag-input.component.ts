@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
 import * as countries from '../assets/data.json';
 
 @Component({
@@ -17,14 +17,14 @@ export class SCountryFlagInputComponent implements OnInit {
     mobile_format: "9999-999999"
   };
   @Output() flagdata = new EventEmitter();
-  flagComponentForm!: FormGroup;
+  flagComponentForm!: UntypedFormGroup;
   @Output() private phoneNumberInput = new EventEmitter<any>();
 
-  constructor(private _formBuilder: FormBuilder) {}
+  constructor(private _formBuilder: UntypedFormBuilder) {}
 
   ngOnInit() {
     this.flagComponentForm = this._formBuilder.group({
-      phonenumber: new FormControl(''),
+      phonenumber: new UntypedFormControl(''),
     });
     this.flagComponentForm.controls['phonenumber'].setValidators([
       Validators.required,
