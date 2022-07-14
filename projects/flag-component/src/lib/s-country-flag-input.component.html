@@ -44,6 +44,7 @@
       minlength="5"
       required
       placeholder="{{defaultCountry.mobile_format}}"
+      (keypress)="getMobileNumber($event)"
     />
     </form>
   </div>

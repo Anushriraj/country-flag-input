@@ -47,4 +47,19 @@ export class SCountryFlagInputComponent implements OnInit {
   ngDoCheck() {
       this.phoneNumberInput.emit(this.flagComponentForm.controls['phonenumber']);
   }
+
+  getMobileNumber(event: KeyboardEvent) {
+    return (
+      (event.code.includes('Digit') && event.shiftKey === false) ||
+      event.code.includes('Numpad1') ||
+      event.code.includes('Numpad2') ||
+      event.code.includes('Numpad3') ||
+      event.code.includes('Numpad4') ||
+      event.code.includes('Numpad5') ||
+      event.code.includes('Numpad6') ||
+      event.code.includes('Numpad7') ||
+      event.code.includes('Numpad8') ||
+      event.code.includes('Numpad9')
+    );
+  }
 }
