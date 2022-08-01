@@ -19,6 +19,9 @@ export class SCountryFlagInputComponent implements OnInit {
   @Output() flagdata = new EventEmitter();
   flagComponentForm!: UntypedFormGroup;
   @Output() private phoneNumberInput = new EventEmitter<any>();
+  @Input() disableInput!: boolean;
+  @Input() autoFetchInput!: string;
+  phonenumber!: string;
 
   constructor(private _formBuilder: UntypedFormBuilder) {}
 
@@ -31,7 +34,12 @@ export class SCountryFlagInputComponent implements OnInit {
       Validators.pattern('^((\\+91-?)|0)?[0-9]{10}$'),
       Validators.minLength(5),
     ]);
-    
+    if (this.disableInput == true) {
+      this.flagComponentForm.disable();
+    } else {
+      this.flagComponentForm.enable();
+    }
+    this.phonenumber = this.autoFetchInput;
   }
   
   onClickFlag() {
