@@ -34,12 +34,6 @@ export class SCountryFlagInputComponent implements OnInit, OnChanges {
       Validators.pattern('^((\\+91-?)|0)?[0-9]{10}$'),
       Validators.minLength(5),
     ]);
-    if (this.disableInput == true) {
-      this.flagComponentForm.disable();
-    } else {
-      this.flagComponentForm.enable();
-    }
-    this.phonenumber = this.autoFetchInput;
   }
   
   onClickFlag() {
@@ -74,10 +68,10 @@ export class SCountryFlagInputComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges() {
+    this.phonenumber = this.autoFetchInput;
     if (this.disableInput == true) {
       this.flagComponentForm.disable();
     }
-    this.phonenumber = this.autoFetchInput;
-    console.log("test",this.autoFetchInput)
+    console.log("test",this.autoFetchInput, this.disableInput)
   }
 }
