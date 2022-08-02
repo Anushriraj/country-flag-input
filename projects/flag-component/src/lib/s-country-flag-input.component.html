@@ -45,6 +45,7 @@
       required
       placeholder="{{defaultCountry.mobile_format}}"
       (keypress)="getMobileNumber($event)"
+      [(ngModel)]="phonenumber"
     />
     </form>
   </div>

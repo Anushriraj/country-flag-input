@@ -71,6 +71,8 @@ export class SCountryFlagInputComponent implements OnInit, OnChanges {
     this.phonenumber = this.autoFetchInput;
     if (this.disableInput == true) {
       this.flagComponentForm.disable();
+    } else {
+      this.flagComponentForm.enable();
     }
     console.log("test",this.autoFetchInput, this.disableInput)
   }
