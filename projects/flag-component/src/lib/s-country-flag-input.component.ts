@@ -7,7 +7,7 @@ import * as countries from '../assets/data.json';
   templateUrl: './s-country-flag-input.component.html',
   styleUrls: ['./s-country-flag-input.component.css'],
 })
-export class SCountryFlagInputComponent implements OnInit, OnChanges {
+export class SCountryFlagInputComponent implements OnInit {
   showFlags = false;
   countriesData: any = (countries as any).default;
   defaultCountry: any = {
@@ -50,6 +50,13 @@ export class SCountryFlagInputComponent implements OnInit, OnChanges {
 
   ngDoCheck() {
       this.phoneNumberInput.emit(this.flagComponentForm.controls['phonenumber']);
+      this.phoneNumberInput.emit(this.flagComponentForm.controls['phonenumber']);
+      if (this.disableInput == true) {
+        this.flagComponentForm.disable();
+      } else {
+        this.flagComponentForm.enable();
+      }
+      this.phonenumber = this.autoFetchInput;
   }
 
   getMobileNumber(event: KeyboardEvent) {
@@ -65,16 +72,5 @@ export class SCountryFlagInputComponent implements OnInit, OnChanges {
       event.code.includes('Numpad8') ||
       event.code.includes('Numpad9')
     );
-  }
-
-  ngOnChanges() {
-    if (this.disableInput === true) {
-      console.log(this.disableInput)
-      this.flagComponentForm.disable();
-    } else if (this.disableInput === false) {
-      console.log(this.disableInput)
-      this.flagComponentForm.enable();
-    }
-    this.phonenumber = this.autoFetchInput;
   }
 }
