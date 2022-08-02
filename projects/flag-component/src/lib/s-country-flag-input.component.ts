@@ -68,12 +68,13 @@ export class SCountryFlagInputComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges() {
-    this.phonenumber = this.autoFetchInput;
-    if (this.disableInput == true) {
+    if (this.disableInput === true) {
+      console.log(this.disableInput)
       this.flagComponentForm.disable();
-    } else {
+    } else if (this.disableInput === false) {
+      console.log(this.disableInput)
       this.flagComponentForm.enable();
     }
-    console.log("test",this.autoFetchInput, this.disableInput)
+    this.phonenumber = this.autoFetchInput;
   }
 }
