@@ -7,7 +7,7 @@ import * as countries from '../assets/data.json';
   templateUrl: './s-country-flag-input.component.html',
   styleUrls: ['./s-country-flag-input.component.css'],
 })
-export class SCountryFlagInputComponent implements OnInit {
+export class SCountryFlagInputComponent implements OnInit, OnChanges {
   showFlags = false;
   countriesData: any = (countries as any).default;
   defaultCountry: any = {
@@ -43,7 +43,9 @@ export class SCountryFlagInputComponent implements OnInit {
   }
   
   onClickFlag() {
-    this.showFlags = true;
+    if (this.disableInput == false) {
+      this.showFlags = true;
+    }
   }
 
   getCountryDetails(data: any) {
@@ -69,5 +71,13 @@ export class SCountryFlagInputComponent implements OnInit {
       event.code.includes('Numpad8') ||
       event.code.includes('Numpad9')
     );
+  }
+
+  ngOnChanges() {
+    if (this.disableInput == true) {
+      this.flagComponentForm.disable();
+    }
+    this.phonenumber = this.autoFetchInput;
+    console.log("test",this.autoFetchInput)
   }
 }
