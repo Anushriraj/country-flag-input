@@ -70,8 +70,7 @@ export class SCountryFlagInputComponent implements OnInit {
       event.code.includes('Numpad6') ||
       event.code.includes('Numpad7') ||
       event.code.includes('Numpad8') ||
-      event.code.includes('Numpad9') || 
-      event.code.includes('Numpad0')
+      event.code.includes('Numpad9')
     );
   }
 }
