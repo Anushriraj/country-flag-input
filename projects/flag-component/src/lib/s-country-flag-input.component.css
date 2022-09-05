@@ -148,4 +148,5 @@
 .flagdropdown {
   height: 200px;
   overflow: auto;
+  width: 200px;
 }
