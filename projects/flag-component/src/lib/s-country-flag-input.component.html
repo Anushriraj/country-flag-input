@@ -1,8 +1,8 @@
+
 <div class="row mx-auto">
   <div class="col-md-2 col-sm-2 col-2 padding-0">
     <div class="box border-right-0">
-      <div
-        (click)="onClickFlag()"
+        <div
         class="
           flag-box
           border-right-0
@@ -10,29 +10,19 @@
           flex-column
           justify-content-center
           align-items-center
-        "
+        " id="dropdownMenuLink" data-bs-toggle="dropdown"
       >
         <img
-          class="flagCala"
-          [src]="defaultCountry.flag"
-          style="padding-right: 10px; height: 10px;"
-        />
-      </div>
-      <div id="myDropdown" class="dropdown-content" [hidden]="!showFlags">
-        <div
-          *ngFor="let codes of countriesData"
+        [src]="defaultCountry.flag"
+        style="padding-right: 10px; height: 10px;" class="flagCala" role="button" aria-expanded="false"></div>
+      
+        <ul class="dropdown-menu flagdropdown" aria-labelledby="dropdownMenuLink">
+          <li *ngFor="let codes of countriesData"
           (click)="getCountryDetails(codes)"
-          class="flag-detail"
-        >
-          <img
-            [src]="codes.flag"
-            style="padding-right: 10px; height: 10px; width: 30px;"
-          />
-          {{ codes.countryName
-          }}<span class="cnt_cde">{{ codes.countryCode }}</span>
-        </div>
-      </div>
-    </div>
+          class="flag-detail"><img [src]="codes.flag"
+          style="padding-right: 10px; height: 10px; width: 30px;">{{ codes.countryName }}<span class="cnt_cde">{{ codes.countryCode }}</span></li>
+        </ul>
+  </div>
   </div>
   <div class="col-md-10 col-sm-10 col-10 padding-0">
     <form [formGroup]="flagComponentForm">
@@ -50,5 +40,6 @@
     </form>
   </div>
 </div>
+
 
   
