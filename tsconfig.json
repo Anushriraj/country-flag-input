@@ -6,7 +6,6 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "allowJs": true,
     "paths": {
       "flag-component": [
         "dist/flag-component/flag-component",
