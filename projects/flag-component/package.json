@@ -1,6 +1,6 @@
 {
   "name": "s-flag-input",
-  "version": "1.12.7",
+  "version": "1.12.6",
   "peerDependencies": {
     "@angular/common": "~13.2.2",
     "@angular/core": "~13.2.2"
