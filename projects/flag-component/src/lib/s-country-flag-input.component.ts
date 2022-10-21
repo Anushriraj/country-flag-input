@@ -21,6 +21,7 @@ export class SCountryFlagInputComponent implements OnInit {
   @Output() private phoneNumberInput = new EventEmitter<any>();
   @Input() disableInput!: boolean;
   @Input() autoFetchInput!: string;
+  @Input() flagStyle: any = {};
   phonenumber!: string;
 
   constructor(private _formBuilder: UntypedFormBuilder) {}
