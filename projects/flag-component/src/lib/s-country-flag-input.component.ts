@@ -21,6 +21,7 @@ export class SCountryFlagInputComponent implements OnInit {
   @Output() private phoneNumberInput = new EventEmitter<any>();
   @Input() disableInput!: boolean;
   @Input() autoFetchInput!: string;
+  @Input() autoFetchFlagInput!: string;
   @Input() flagStyle: any = {};
   phonenumber!: string;
 
@@ -58,6 +59,12 @@ export class SCountryFlagInputComponent implements OnInit {
         this.flagComponentForm.enable();
       }
       this.phonenumber = this.autoFetchInput;
+      this.defaultCountry.filter((country: any) => {
+        if (country.countryCode == this.autoFetchFlagInput) {
+          this.defaultCountry = country;
+          console.log(country, this.countriesData)
+        }
+      })
   }
 
   getMobileNumber(event: KeyboardEvent) {
