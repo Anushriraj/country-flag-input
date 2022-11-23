@@ -59,7 +59,7 @@ export class SCountryFlagInputComponent implements OnInit {
         this.flagComponentForm.enable();
       }
       this.phonenumber = this.autoFetchInput;
-      this.defaultCountry.filter((country: any) => {
+      this.countriesData.filter((country: any) => {
         if (country.countryCode == this.autoFetchFlagInput) {
           this.defaultCountry = country;
           console.log(country, this.countriesData)
